@@ -20,7 +20,7 @@ namespace WebIDCAndBMI.Controllers
 
         [Route("xxxx")]
         [HttpGet]
-        public IHttpActionResult PrintReportTaxExemption()
+        public IActionResult PrintReportTaxExemption()
         {
             getReportClass db = new getReportClass();
             try
@@ -41,12 +41,12 @@ namespace WebIDCAndBMI.Controllers
             }
         }
 
-        private IHttpActionResult ResponseMessage(HttpResponseMessage result)
+        private IActionResult InternalServerError(Exception ex)
         {
             throw new NotImplementedException();
         }
 
-        private IHttpActionResult InternalServerError(Exception ex)
+        private IActionResult ResponseMessage(HttpResponseMessage result)
         {
             throw new NotImplementedException();
         }

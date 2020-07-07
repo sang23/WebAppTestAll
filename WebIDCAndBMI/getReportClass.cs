@@ -11,7 +11,7 @@ namespace WebIDCAndBMI
     {
         public MemoryStream GetReportXXXXX()
         {
-            string[] arrayObjectToPrintReport = new string[] { "xxx", "sss", "zzz", "ggg" };
+            string[] arrayObjectToPrintReport = new string[] { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
             MemoryStream result = new MemoryStream();
             using (CarReport report = new CarReport())
             {
