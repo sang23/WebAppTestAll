@@ -31,7 +31,7 @@ namespace WebIDCAndBMI.Controllers
                 result.Content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
                 result.Content.Headers.ContentDisposition = new ContentDispositionHeaderValue("attachment")
                 {
-                    FileName = string.Format("{0}.pdf", "FileName")
+                    FileName = string.Format("{0}.pdf", "Filename")
                 };
                 return ResponseMessage(result);
             }
@@ -41,14 +41,16 @@ namespace WebIDCAndBMI.Controllers
             }
         }
 
-        private IActionResult InternalServerError(Exception ex)
-        {
-            throw new NotImplementedException();
-        }
-
         private IActionResult ResponseMessage(HttpResponseMessage result)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            return (IActionResult)result;
+        }
+
+        private IActionResult InternalServerError(Exception ex)
+        {
+            //throw new NotImplementedException();
+            return (IActionResult)ex;
         }
     }
 }
