@@ -2,73 +2,12 @@
 <XtraReportsLayoutSerializer SerializerVersion="20.1.4.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="CarReport" PageWidth="850" PageHeight="1100" Version="20.1" DataSource="#Ref-0">
   <Bands>
     <Item1 Ref="2" ControlType="TopMarginBand" Name="topMarginBand1" />
-    <Item2 Ref="3" ControlType="DetailBand" Name="detailBand1" HeightF="464.583344">
-      <Controls>
-        <Item1 Ref="4" ControlType="XRLabel" Name="label12" Multiline="true" Text="label2" SizeF="122.916656,23" LocationFloat="134.375,311.2083" Padding="2,2,0,0,100">
-          <ExpressionBindings>
-            <Item1 Ref="5" EventName="BeforePrint" PropertyName="Text" Expression="[cars].[Brands].[11]" />
-          </ExpressionBindings>
-        </Item1>
-        <Item2 Ref="6" ControlType="XRLabel" Name="label7" Multiline="true" Text="label2" SizeF="122.916656,23" LocationFloat="134.375,196.208313" Padding="2,2,0,0,100">
-          <ExpressionBindings>
-            <Item1 Ref="7" EventName="BeforePrint" PropertyName="Text" Expression="[cars].[Brands].[6]" />
-          </ExpressionBindings>
-        </Item2>
-        <Item3 Ref="8" ControlType="XRLabel" Name="label8" Multiline="true" Text="label2" SizeF="122.916656,23" LocationFloat="134.375,219.2083" Padding="2,2,0,0,100">
-          <ExpressionBindings>
-            <Item1 Ref="9" EventName="BeforePrint" PropertyName="Text" Expression="[cars].[Brands].[7]" />
-          </ExpressionBindings>
-        </Item3>
-        <Item4 Ref="10" ControlType="XRLabel" Name="label9" Multiline="true" Text="label2" SizeF="122.916656,23" LocationFloat="134.375,242.208328" Padding="2,2,0,0,100">
-          <ExpressionBindings>
-            <Item1 Ref="11" EventName="BeforePrint" PropertyName="Text" Expression="[cars].[Brands].[8]" />
-          </ExpressionBindings>
-        </Item4>
-        <Item5 Ref="12" ControlType="XRLabel" Name="label10" Multiline="true" Text="label2" SizeF="122.916656,23" LocationFloat="134.375,288.2083" Padding="2,2,0,0,100">
-          <ExpressionBindings>
-            <Item1 Ref="13" EventName="BeforePrint" PropertyName="Text" Expression="[cars].[Brands].[10]" />
-          </ExpressionBindings>
-        </Item5>
-        <Item6 Ref="14" ControlType="XRLabel" Name="label11" Multiline="true" Text="label2" SizeF="122.916656,23" LocationFloat="134.375,265.2083" Padding="2,2,0,0,100">
-          <ExpressionBindings>
-            <Item1 Ref="15" EventName="BeforePrint" PropertyName="Text" Expression="[cars].[Brands].[9]" />
-          </ExpressionBindings>
-        </Item6>
-        <Item7 Ref="16" ControlType="XRLabel" Name="label6" Multiline="true" Text="label2" SizeF="122.916656,23" LocationFloat="134.375,150.208344" Padding="2,2,0,0,100">
-          <ExpressionBindings>
-            <Item1 Ref="17" EventName="BeforePrint" PropertyName="Text" Expression="[cars].[Brands].[4]" />
-          </ExpressionBindings>
-        </Item7>
-        <Item8 Ref="18" ControlType="XRLabel" Name="label5" Multiline="true" Text="label2" SizeF="122.916656,23" LocationFloat="134.375,173.208328" Padding="2,2,0,0,100">
-          <ExpressionBindings>
-            <Item1 Ref="19" EventName="BeforePrint" PropertyName="Text" Expression="[cars].[Brands].[5]" />
-          </ExpressionBindings>
-        </Item8>
-        <Item9 Ref="20" ControlType="XRLabel" Name="label4" Multiline="true" Text="label2" SizeF="122.916656,23" LocationFloat="134.375,127.208328" Padding="2,2,0,0,100">
-          <ExpressionBindings>
-            <Item1 Ref="21" EventName="BeforePrint" PropertyName="Text" Expression="[cars].[Brands].[3]" />
-          </ExpressionBindings>
-        </Item9>
-        <Item10 Ref="22" ControlType="XRLabel" Name="label3" Multiline="true" Text="label2" SizeF="122.916656,23" LocationFloat="134.375,104.208313" Padding="2,2,0,0,100">
-          <ExpressionBindings>
-            <Item1 Ref="23" EventName="BeforePrint" PropertyName="Text" Expression="[cars].[Brands].[2]" />
-          </ExpressionBindings>
-        </Item10>
-        <Item11 Ref="24" ControlType="XRLabel" Name="label2" Multiline="true" Text="label2" SizeF="122.916656,23" LocationFloat="134.375,81.20833" Padding="2,2,0,0,100">
-          <ExpressionBindings>
-            <Item1 Ref="25" EventName="BeforePrint" PropertyName="Text" Expression="[cars].[Brands].[1]" />
-          </ExpressionBindings>
-        </Item11>
-        <Item12 Ref="26" ControlType="XRLabel" Name="label1" Multiline="true" Text="Car Brands" TextAlignment="MiddleCenter" SizeF="183.333328,41.7499847" LocationFloat="236.458328,10.0000067" Font="Times New Roman, 20.25pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
-          <StylePriority Ref="27" UseFont="false" UseTextAlignment="false" />
-        </Item12>
-      </Controls>
-    </Item2>
-    <Item3 Ref="28" ControlType="BottomMarginBand" Name="bottomMarginBand1" />
+    <Item2 Ref="3" ControlType="DetailBand" Name="detailBand1" HeightF="464.583344" />
+    <Item3 Ref="4" ControlType="BottomMarginBand" Name="bottomMarginBand1" />
   </Bands>
   <ComponentStorage>
     <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Json.JsonDataSource,DevExpress.DataAccess.v20.1" Name="jsonDataSource1" Base64="PEpzb25EYXRhU291cmNlIE5hbWU9Impzb25EYXRhU291cmNlMSIgQ29ubmVjdGlvbk5hbWU9Ikpzb25Db25uZWN0aW9uIDEiPjxTY2hlbWE+PE5vZGUgTmFtZT0icm9vdCIgVHlwZT0iU3lzdGVtLk9iamVjdCIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJPYmplY3QiPjxOb2RlIE5hbWU9ImNhcnMiIFR5cGU9IlN5c3RlbS5PYmplY3QiIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iT2JqZWN0Ij48Tm9kZSBOYW1lPSJCcmFuZHMiIFR5cGU9IlN5c3RlbS5PYmplY3QiIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iT2JqZWN0Ij48Tm9kZSBOYW1lPSIxIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9IjIiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0iMyIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSI0IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9IjUiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0iNiIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSI3IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9IjgiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0iOSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSIxMCIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSIxMSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48L05vZGU+PC9Ob2RlPjwvTm9kZT48L1NjaGVtYT48L0pzb25EYXRhU291cmNlPg==" />
-    <Item2 Ref="29" ObjectType="DevExpress.DataAccess.Json.JsonDataSource,DevExpress.DataAccess.v20.1" Name="jsonDataSource2" Base64="PEpzb25EYXRhU291cmNlIE5hbWU9Impzb25EYXRhU291cmNlMiIgQ29ubmVjdGlvbk5hbWU9IkN1c3RvbWVycyI+PFNjaGVtYT48Tm9kZSBOYW1lPSJyb290IiBUeXBlPSJTeXN0ZW0uT2JqZWN0IiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9Ik9iamVjdCI+PE5vZGUgTmFtZT0iQ3VzdG9tZXJzIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IkFycmF5Ij48Tm9kZSBOYW1lPSJJZCIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJDb21wYW55TmFtZSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJDb250YWN0TmFtZSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJDb250YWN0VGl0bGUiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0iQWRkcmVzcyIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJDaXR5IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9IlBvc3RhbENvZGUiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0iQ291bnRyeSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJQaG9uZSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJGYXgiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0iUmVnaW9uIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjwvTm9kZT48L05vZGU+PC9TY2hlbWE+PC9Kc29uRGF0YVNvdXJjZT4=" />
-    <Item3 Ref="30" ObjectType="DevExpress.DataAccess.Excel.ExcelDataSource,DevExpress.DataAccess.v20.1" Name="excelDataSource1" Base64="PEV4Y2VsRGF0YVNvdXJjZSBOYW1lPSJleGNlbERhdGFTb3VyY2UxIiBGaWxlTmFtZT0iQzpcVXNlcnNcd2lzYXJ1dC5tdW5cRGVza3RvcFxjYXJfQnJhbmRzLnhsc3giPjxPcHRpb25zIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeGNlbC5FeGNlbFNvdXJjZU9wdGlvbnMiIFNraXBFbXB0eVJvd3M9InRydWUiIFVzZUZpcnN0Um93QXNIZWFkZXI9InRydWUiIFNraXBIaWRkZW5Db2x1bW5zPSJ0cnVlIiBTa2lwSGlkZGVuUm93cz0idHJ1ZSI+PEltcG9ydFNldHRpbmdzIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeGNlbC5FeGNlbFdvcmtzaGVldFNldHRpbmdzIiBXb3Jrc2hlZXROYW1lPSJTaGVldDEiIC8+PC9PcHRpb25zPjxTY2hlbWE+PEZpZWxkSW5mbyBOYW1lPSJ4eHgiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjwvU2NoZW1hPjxSZXN1bHRTY2hlbWE+PFZpZXc+PEZpZWxkIE5hbWU9Inh4eCIgVHlwZT0iU3RyaW5nIiAvPjwvVmlldz48L1Jlc3VsdFNjaGVtYT48L0V4Y2VsRGF0YVNvdXJjZT4=" />
+    <Item2 Ref="5" ObjectType="DevExpress.DataAccess.Json.JsonDataSource,DevExpress.DataAccess.v20.1" Name="jsonDataSource2" Base64="PEpzb25EYXRhU291cmNlIE5hbWU9Impzb25EYXRhU291cmNlMiIgQ29ubmVjdGlvbk5hbWU9IkN1c3RvbWVycyI+PFNjaGVtYT48Tm9kZSBOYW1lPSJyb290IiBUeXBlPSJTeXN0ZW0uT2JqZWN0IiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9Ik9iamVjdCI+PE5vZGUgTmFtZT0iQ3VzdG9tZXJzIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IkFycmF5Ij48Tm9kZSBOYW1lPSJJZCIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJDb21wYW55TmFtZSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJDb250YWN0TmFtZSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJDb250YWN0VGl0bGUiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0iQWRkcmVzcyIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJDaXR5IiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjxOb2RlIE5hbWU9IlBvc3RhbENvZGUiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0iQ291bnRyeSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJQaG9uZSIgVHlwZT0iU3lzdGVtLlN0cmluZyIgU2VsZWN0ZWQ9InRydWUiIE5vZGVUeXBlPSJQcm9wZXJ0eSIgLz48Tm9kZSBOYW1lPSJGYXgiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiBOb2RlVHlwZT0iUHJvcGVydHkiIC8+PE5vZGUgTmFtZT0iUmVnaW9uIiBUeXBlPSJTeXN0ZW0uU3RyaW5nIiBTZWxlY3RlZD0idHJ1ZSIgTm9kZVR5cGU9IlByb3BlcnR5IiAvPjwvTm9kZT48L05vZGU+PC9TY2hlbWE+PC9Kc29uRGF0YVNvdXJjZT4=" />
+    <Item3 Ref="6" ObjectType="DevExpress.DataAccess.Excel.ExcelDataSource,DevExpress.DataAccess.v20.1" Name="excelDataSource1" Base64="PEV4Y2VsRGF0YVNvdXJjZSBOYW1lPSJleGNlbERhdGFTb3VyY2UxIiBGaWxlTmFtZT0iQzpcVXNlcnNcd2lzYXJ1dC5tdW5cRGVza3RvcFxjYXJfQnJhbmRzLnhsc3giPjxPcHRpb25zIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeGNlbC5FeGNlbFNvdXJjZU9wdGlvbnMiIFNraXBFbXB0eVJvd3M9InRydWUiIFVzZUZpcnN0Um93QXNIZWFkZXI9InRydWUiIFNraXBIaWRkZW5Db2x1bW5zPSJ0cnVlIiBTa2lwSGlkZGVuUm93cz0idHJ1ZSI+PEltcG9ydFNldHRpbmdzIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeGNlbC5FeGNlbFdvcmtzaGVldFNldHRpbmdzIiBXb3Jrc2hlZXROYW1lPSJTaGVldDEiIC8+PC9PcHRpb25zPjxTY2hlbWE+PEZpZWxkSW5mbyBOYW1lPSJ4eHgiIFR5cGU9IlN5c3RlbS5TdHJpbmciIFNlbGVjdGVkPSJ0cnVlIiAvPjwvU2NoZW1hPjxSZXN1bHRTY2hlbWE+PFZpZXc+PEZpZWxkIE5hbWU9Inh4eCIgVHlwZT0iU3RyaW5nIiAvPjwvVmlldz48L1Jlc3VsdFNjaGVtYT48L0V4Y2VsRGF0YVNvdXJjZT4=" />
   </ComponentStorage>
 </XtraReportsLayoutSerializer>

@@ -7,15 +7,19 @@ using WebIDCAndBMI.Report;
 
 namespace WebIDCAndBMI
 {
-    public class getReportClass
+    public class GetReportClass
     {
-        public MemoryStream GetReportXXXXX()
+        public static MemoryStream GetReportXXXXX()
         {
-            string[] arrayObjectToPrintReport = new string[] { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
+
+            List<Car> cars = new List<Car>();
+            cars.Add(new Car() { Name = "01", Price = 500 });
+            cars.Add(new Car() { Name = "02", Price = 1500 });
+            cars.Add(new Car() { Name = "03", Price = 2500 });
             MemoryStream result = new MemoryStream();
             using (CarReport report = new CarReport())
             {
-                report.DataSource = arrayObjectToPrintReport;       // bind object to report
+                report.DataSource = cars;   // bind object to report
                 report.CreateDocument();
                 report.ExportToPdf(result);
                 report.Dispose();
