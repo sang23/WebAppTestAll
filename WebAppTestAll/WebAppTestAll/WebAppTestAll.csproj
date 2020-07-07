@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Report\CarReport.repx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Report\CarReport.repx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Reporting.Core" Version="20.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Report\CarReport.cs">
+      <DependentUpon>CarReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Report\CarReport.Designer.cs">
+      <DependentUpon>CarReport.repx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+
+</Project>
