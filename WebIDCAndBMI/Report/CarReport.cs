@@ -8,6 +8,9 @@ namespace WebIDCAndBMI.Report
 {
     public partial class CarReport
     {
-
+        public CarReport()
+        {
+            InitializeComponent();
+        }
     }
 }

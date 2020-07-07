@@ -31,7 +31,7 @@ namespace WebIDCAndBMI.Controllers
                 result.Content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
                 result.Content.Headers.ContentDisposition = new ContentDispositionHeaderValue("attachment")
                 {
-                    FileName = string.Format("{0}.pdf", "Filename")
+                    FileName = string.Format("{0}.pdf", "FileName")
                 };
                 return ResponseMessage(result);
             }
