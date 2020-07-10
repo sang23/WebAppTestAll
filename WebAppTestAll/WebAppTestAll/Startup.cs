@@ -28,6 +28,13 @@ namespace WebAppTestAll
             services.AddControllers();
 
             services.AddSwaggerGen();
+
+            services.AddCors(options => {
+                options.AddPolicy("MyCORSPolicy", builder => builder
+                 .AllowAnyHeader()
+                 .AllowAnyOrigin()
+                 .AllowAnyMethod());
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,6 +44,8 @@ namespace WebAppTestAll
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors("MyCORSPolicy");
 
             app.UseSwagger();
 

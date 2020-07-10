@@ -2,14 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
 namespace WebAppTestAll.Controllers
 {
+
     [Route("Example/api/")]
-    [ApiController]
+	//[EnableCors("MyCORSPolicy")]
+	[ApiController]
     public class TestAllController : ControllerBase
     {
 		[Route("ValidateCitizenId/{CitizenId}")]
